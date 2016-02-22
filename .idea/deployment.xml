@@ -5,7 +5,7 @@
       <paths name="Home">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/responsive/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
