@@ -123,12 +123,12 @@ section.aboutMe h3 {
     padding-top:5%;
     font-size:5vw;
     font-family:'calligraphy', sans-serif;
-    color: #CF0F0D;
+    color: black;
 }
 
 section.aboutMe p {
     padding-bottom:5%;
-    color: black;
+    color: #451E07;
     font-family:'merriweather', sans-serif;
     font-size:1.3vw;
     text-align:justify;
@@ -136,7 +136,7 @@ section.aboutMe p {
 }
 #profilePhoto {
 
-    border-radius:20%;
+    border-radius:10%;
     width:60%;
     height:auto;
     display:block;
@@ -177,7 +177,7 @@ section.fendPortfolio {
 
     font-size:5vw;
     font-family: 'calligraphy', sans-serif;
-    color: #172936;
+    color: black;
 }
 
 
@@ -200,36 +200,66 @@ i.gitLinks {
 section.fendPortfolio b, section.otherPortfolio b {
     font-size: 1.6vw;
     font-weight: 900;
-    color: #172936;
+    color: black;
 }
 section.fendPortfolio em, section.otherPortfolio em {
     font-size:1.4vw;
     font-style:italic;
     font-weight: 800;
-    color:#199C8B;
+    color:#915B3B;
 }
 section.fendPortfolio p, section.otherPortfolio p {
     font-size:1.2vw;
-    color:black;
+    color:#451E07;
     font-weight: 700;
 }
 
 section.otherPortfolio {
     width:100%;
     height:100%;
-    background: url(../img/camerasrowwhite.jpg);
+    background: url(../img/logswhite.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-family: 'merriweather', sans-serif;
 }
 
 section.contact {
     width:100%;
     height:100%;
-    background: url(../img/CameraFrosted.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-color:black;
+}
+
+section.contact {
+    color:white;
+}
+
+section.contact h4 {
+    font-size:2vw;
+    font-family:'merriweather',sans-serif;
+
+    display:inline-block;
+}
+section.contact i {
+    display:inline-block;
+    color:white;
+    font-size:2vw;
+    padding-left:5%;
+    padding-top:2%;
+    padding-bottom:2%;
+
+}
+section.photography {
+    padding-top:5%;
+    padding-bottom:5%;
+}
+section.photography img {
+    padding-top:2%;
+    padding-right:2%;
+    height:auto;
+    width:100%;
+    display:inline-block;
+    margin:auto;
+    border-radius: 1%;
 }
