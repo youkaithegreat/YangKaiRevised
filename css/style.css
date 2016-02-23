@@ -57,6 +57,11 @@ header h3 {
     font-size:1.2vw;
 }
 
+header a {
+    text-decoration:none;
+    color:white;
+}
+
 header img {
     display:none;
 }
@@ -192,8 +197,10 @@ div #socialMediaSplash {
 }
 
 .aboutMe {
+    padding-top:5%;
     max-height:100%;
     background-color:lightgrey;
+    padding-bottom:5%;
 }
 
 section.aboutMe h3 {
@@ -256,7 +263,7 @@ section.fendPortfolio {
 }
 
 .headerRow h4 {
-
+    padding-top:5%;
     font-size:3vw;
     font-family: 'merriweather', sans-serif;
     color: black;
@@ -345,7 +352,6 @@ section.photography {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    padding-top:5%;
     padding-bottom:5%;
 }
 section.photography img {

@@ -2,7 +2,34 @@
  * Created by Kevin on 2/22/2016.
  */
 
-$("#splashButDown").click(function(){
+$("#photoNavBut").click(function(){
+    $('html, body').animate({
+        scrollTop: $('#photography').offset().top
+    }, 'slow');
+});
+
+$("#homeNavBut").click(function(){
+    $('html, body').animate({
+        scrollTop: $('#home').offset().top
+    }, 'slow');
+});
+$("#fendNavBut").click(function(){
+    $('html, body').animate({
+        scrollTop: $('#fendPortfolio').offset().top
+    }, 'slow');
+});
+$("#otherNavBut").click(function(){
+    $('html, body').animate({
+        scrollTop: $('#otherPortfolio').offset().top
+    }, 'slow');
+});
+$("#aboutNavBut").click(function(){
+    $('html, body').animate({
+        scrollTop: $('#aboutMe').offset().top
+    }, 'slow');
+});
+
+$("#aboutNavBut").click(function(){
     $('html, body').animate({
         scrollTop: $('#aboutMe').offset().top
     }, 'slow');
