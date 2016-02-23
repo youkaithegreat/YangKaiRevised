@@ -8,8 +8,79 @@ html, body {
     margin:0;
     height:100%;
 }
+/*
+header {
 
 
+}
+*/
+
+header {
+    background-color:transparent;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 8%;
+    margin: 0;
+    z-index:1;
+    font-family:'merriweather',sans-serif;
+    color:white;
+    font-weight:bold;
+
+    text-shadow: 1px 1px darkgrey;
+}
+
+header.clone {
+    position: fixed;
+    background-color:black;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    top: -65px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: 0.2s top cubic-bezier(.3,.73,.3,.74);
+    color: white;
+    font-size:3vw;
+    font-family:'merriweather',sans-serif;
+}
+
+header h3 {
+    display:inline-block;
+    float:right;
+    top:0;
+    margin-right:5%;
+    font-size:1.2vw;
+}
+
+header img {
+    display:none;
+}
+
+header.clone h3 {
+    display:inline-block;
+    float:right;
+    top:0;
+    margin-right:5%;
+}
+
+header.clone img {
+    display:inline-block;
+    float:left;
+    top:0;
+    margin-right:5%;
+
+    font-size:1.2vw;
+}
+
+
+body.down header.clone {
+    top: 0;
+}
 section {
     height:100%;
     width:100%;
