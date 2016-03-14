@@ -45,4 +45,12 @@ $(document).ready(function() {
     });
 });
 
+//fixes jitter on IE and EDGE
+$('body').on("mousewheel", function () {
+    event.preventDefault();
 
+    var wheelDelta = event.wheelDelta;
+
+    var currentScrollPosition = window.pageYOffset;
+    window.scrollTo(0, currentScrollPosition - wheelDelta);
+});

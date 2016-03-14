@@ -8,13 +8,58 @@ html, body {
     margin:0;
     height:100%;
 }
-/*
-header {
 
+@media only screen and (max-device-width: 900px) {
+
+    header h3{
+        font-size: 2vw !important;
+    }
+
+    header.clone h3{
+        font-size: 2vw !important;
+    }
+
+    header.clone img {
+       content:url(../img/logosmallwhiteheader.png);
+    }
+
+    section.fendPortfolio b, section.otherPortfolio b {
+        font-size: 2.6vw !important;
+    }
+    section.fendPortfolio em, section.otherPortfolio em {
+        font-size:2.4vw !important;
+
+    }
+    section.fendPortfolio p, section.otherPortfolio p {
+        font-size:2.2vw !important;
+    }
+
+    #logo h1 {
+        font-size:5vw !important;
+    }
+
+    #logo h2 {
+        font-size:4vw !important;
+
+    }
+
+    div #socialMediaSplash {
+        font-size: 5.8vw !important;
+
+    }
+
+    section.aboutMe img {
+        content:url(../img/profilesmall.jpg);
+    }
+    section.aboutMe h3 {
+        font-size:5vw !important;
+    }
+
+    section.aboutMe p {
+        font-size:3.3vw !important;
+    }
 
 }
-*/
-
 header {
     background-color:transparent;
     position: relative;
@@ -28,7 +73,6 @@ header {
     color:white;
     font-weight:bold;
 
-    text-shadow: 1px 1px darkgrey;
 }
 
 header.clone {
@@ -147,17 +191,12 @@ div #logo img {
 #logo h1 {
     font-size:3vw;
     color:black;
-
-
-    text-shadow: 1px 1px grey;
 }
 
 #logo h2 {
     font-size:2vw;
     color:black;
 
-
-    text-shadow: 1px 1px grey;
 }
 
 div #socialMediaSplash {
@@ -209,7 +248,6 @@ section.aboutMe h3 {
     font-family:'merriweather', sans-serif;
     color: black;
 
-    text-shadow: 2px 2px grey;
 }
 
 section.aboutMe p {
@@ -251,6 +289,7 @@ section.fendPortfolio {
     background-size: cover;
     -o-background-size: cover;
     font-family:'merriweather',sans-serif;
+    text-align: center;
 }
 .headerRow {
     margin-top:1%;
@@ -268,7 +307,6 @@ section.fendPortfolio {
     font-family: 'merriweather', sans-serif;
     color: black;
 
-    text-shadow: 2px 2px grey;
 }
 
 
@@ -286,7 +324,6 @@ i.gitLinks {
     margin-left:5%;
     color:black;
 
-    text-shadow: 2px 2px grey;
 }
 
 
@@ -314,7 +351,7 @@ section.otherPortfolio {
     height:100%;
     font-family: 'merriweather', sans-serif;
     background-color:white;
-
+    text-align: center;
 }
 
 section.contact {
@@ -330,8 +367,6 @@ section.contact {
 section.contact h4 {
     font-size:2vw;
     font-family:'merriweather',sans-serif;
-
-    text-shadow: 2px 2px grey;
     display:inline-block;
 }
 section.contact i {
@@ -341,8 +376,6 @@ section.contact i {
     padding-left:5%;
     padding-top:2%;
     padding-bottom:2%;
-
-    text-shadow: 2px 2px grey;
 
 }
 section.photography {
